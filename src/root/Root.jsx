@@ -25,3 +25,16 @@ export const Root = () => {
 }
 
 export default Root
+
+
+
+// Team: 
+// 1.git clone proyektLinki
+// 2.npm i
+// 3.branch ochish: git branch v/service/1
+// 4.branchga otib olish: git checkout v/service/1
+// Task tugagandan keyin
+// 5.git add .
+// 6.git commit -m 'service done'
+// 7.git push origin v/service/1
+// 8.Github saytga otib pull
