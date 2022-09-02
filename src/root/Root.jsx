@@ -5,6 +5,7 @@ import Body from '../component/Body/Body'
 import Navbar from '../component/Navbar/Navbar'
 import OneCard from '../component/OneCard/OneCard'
 import Edit from '../component/Edit/Edit'
+import { Api } from '../component/Api/Api'
 
 export const Root = () => {
   return (
@@ -13,6 +14,7 @@ export const Root = () => {
      <Route element={<Navbar/>}>
        <Route path='/' element={<Body/>} />
        <Route path='/add' element={<Add/>} />
+       <Route path='/api' element={<Api/>} />
        <Route path='/view/:id' element={<OneCard/>} />
        <Route path='/edit/:fozil' element={<Edit/>} />
      </Route>
